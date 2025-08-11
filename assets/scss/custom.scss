@@ -2,8 +2,8 @@
 /* 调整左侧边栏 */
 @media (min-width: 1024px) {
     .left-sidebar {
-        width: 200px !important;
-        max-width: 200px !important;
+        width: 300px !important;
+        max-width: 300px !important;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 轻微阴影 */
         border-radius: 8px;                          /* 圆角，看起来更柔和 */
         max-height: 700px; /* 限制最大高度，单位px，自行调整 */
@@ -103,7 +103,7 @@
 }
 
 .right-sidebar {
-    background-color: #f0e0f8cc !important;  /* 换成你喜欢的颜色 */
+    background-color: #f5edf9cc !important;  /* 换成你喜欢的颜色 */
 }
 
 /* 调整中间文章list样式 */
