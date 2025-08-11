@@ -1,10 +1,21 @@
 <style>
     body {
+        position: relative; /* 伪元素定位基于它 */
+        z-index: 0; /* 保证层级 */
+    }
+
+    body::before {
+        content: "";
+        position: fixed; /* 固定背景，和你 background-attachment: fixed 效果一样 */
+        top: 0; left: 0; right: 0; bottom: 0;
         background: url('{{ (resources.Get "background/ocean.png").Permalink }}') no-repeat center top;
         background-size: cover;
-        background-attachment: fixed;
+        opacity: 0.3; /* 透明度，0-1 之间调 */
+        z-index: -1; /* 放到 body 内容后面 */
+        pointer-events: none; /* 不影响点击 */
     }
 </style>
+
 <div id="particles-js"></div>
 
 <script src={{ (resources.Get "background/particles.min.js").Permalink }}></script>
