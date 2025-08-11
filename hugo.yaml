@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji: 😎
-        subtitle: 欢迎来到我的网站
+        subtitle: 欢迎呀
         avatar:
             enabled: true
             local: true
