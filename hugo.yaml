@@ -45,7 +45,7 @@ params:
 
     footer:
         since: 2020
-        customText:一位破碎的infj
+        customText: 一位破碎的infj
 
     dateFormat:
         published: 2006-01-02
@@ -67,7 +67,7 @@ params:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
-    comments: # 评论先不要
+    comments:
         enabled: true
         provider: disqus
 
