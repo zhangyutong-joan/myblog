@@ -79,6 +79,25 @@ git checkout main # 切换到master分支
 git merge upstream/main # 合并远程仓库的更新到本地仓库
 git push origin main # 将本地仓库的更新推送到远程fork的仓库
 ```
+博客更新后怎么push：
+```
+# 根目录下，保存配置改动
+git add config.yaml
+git commit -m "更新配置文件"
+git push origin main
+
+# 重新生成静态文件
+hugo
+
+# 推送 public/ 到 main
+cd public
+git add .
+git commit -m "更新部署内容"
+git push origin main
+cd ..
+
+```
+
 ## matlab
 ```
 ylim([-2 2]) % 画图，y轴范围
