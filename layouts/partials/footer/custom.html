@@ -247,3 +247,17 @@ initCodeMoreBox();
         topbar.hide();
     })
 </script>
+
+// 修改字体
+<style>
+    @font-face {
+        font-family: 'maple';
+        src: url('{{ (resources.Get "font/MapleMono-NF-CN-MediumItalic.ttf").Permalink }}') format('truetype');
+    }
+
+    :root {
+        --base-font-family: 'maple';
+        --code-font-family: 'maple';
+    }
+</style>
+
