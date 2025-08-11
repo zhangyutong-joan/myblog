@@ -86,8 +86,8 @@
     }
 }
 
-.right-sidebar .tagCloud-tags a {
-    background-color: #f0e0f8cc !important;       /* 自定义背景色 */
+.tagCloud-tags a {
+    background-color: #f2e4e4c2;       /* 自定义背景色 */
     color: #333;                     /* 文字颜色 */
     padding: 6px 12px;               /* 内边距 */
     border-radius: 5px;              /* 圆角 */
@@ -97,11 +97,14 @@
     text-decoration: none;           /* 去掉下划线 */
 }
 
-.right-sidebar .tagCloud-tags a:hover {
+.tagCloud-tags a:hover {
     background-color: #f89b9b;       /* 悬停背景色 */
     color: #ffffff;                    /* 悬停文字色 */
 }
 
+.right-sidebar {
+    background-color: #f0e0f8cc !important;  /* 换成你喜欢的颜色 */
+}
 
 /* 调整中间文章list样式 */
 article {
