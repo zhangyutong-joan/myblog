@@ -203,6 +203,12 @@ class Search {
         const endTime = performance.now();
 
         this.resultTitle.innerText = this.generateResultTitle(results.length, ((endTime - startTime) / 1000).toPrecision(1));
+        /* 
+        方法末尾，让pjax重新解析文档数据，识别动态渲染的数据
+        虽然当前文件没有pjax对象，但最后静态页面会生成一个整体的js文件
+        pjax对象那时就能识别到，就可成功调用
+        */
+        pjax.refresh(document);
     }
 
     private generateResultTitle(resultLen, time) {
