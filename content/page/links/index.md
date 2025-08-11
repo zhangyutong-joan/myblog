@@ -20,7 +20,7 @@ links:
   - title: 100font
     description: 免费字体网站
     website: https://www.100font.com/
-    image: https://www.100font.com/view/img/%E5%AD%97%E4%BD%93%E4%B8%8B%E8%BD%BD.png
+    image: https://images.icon-icons.com/1458/PNG/512/fontsize_99704.png
 
 menu:
     main: 
