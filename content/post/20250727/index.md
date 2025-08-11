@@ -95,7 +95,13 @@ git add .
 git commit -m "更新部署内容"
 git push origin main
 cd ..
+```
 
+push时网络问题
+```
+# 设置系统代理
+git config --global http.proxy http://127.0.0.1:xxxx # 梯子在xxxx端口号就是这个
+git config --global https.proxy http://127.0.0.1:xxxx
 ```
 
 ## matlab
