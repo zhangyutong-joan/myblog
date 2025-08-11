@@ -1,0 +1,157 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+/* 调整左侧边栏 */
+@media (min-width: 1024px) {
+    .left-sidebar {
+        width: 200px !important;
+        max-width: 200px !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 轻微阴影 */
+        border-radius: 8px;                          /* 圆角，看起来更柔和 */
+        max-height: 700px; /* 限制最大高度，单位px，自行调整 */
+        overflow-y: auto;  /* 超出显示滚动条 */
+    }
+}
+
+.left-sidebar {
+    // 头像居中
+    figure.site-avatar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    // 名字和副标题居中
+    div.site-meta {
+        text-align: center;
+    }
+
+    // 社交菜单居中（默认 ol 是 block，设置宽度和居中）
+    ol.menu-social {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;   // 去除默认左边距
+        list-style: none;  // 去掉默认列表样式
+    }
+}
+
+.left-sidebar {
+    background-color: #f0e0f87a !important;  /* 换成你喜欢的颜色 */
+}
+[data-scheme="dark"] .left-sidebar {
+    background-color: #272822 !important;  /* 你喜欢的暗色背景 */
+}
+
+#main-menu li a {
+    display: inline-flex;
+    align-items: center;
+}
+
+#main-menu li a svg {
+    margin-left: 25px; // 或 transform: translateX(4px);
+}
+
+#i18n-switch,
+#dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 30px; // 控制图标和文字之间的间距
+}
+
+#i18n-switch svg,
+#dark-mode-toggle svg {
+    margin-left: 28px;      // 向右挪动图标
+    vertical-align: middle;
+}
+
+/* 调整全版图背景色 */
+// :root {
+//   --body-background: #d1f4ff8f !important;  /* 你想要的新背景色 */
+// }
+
+
+/* 调整右侧边栏 */
+@media (min-width: 1024px) {
+    .right-sidebar {
+        width: 400px !important;
+        max-width: 400px !important;
+        // background-color: var(--card-background);
+        border-radius: 10px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        // max-height: 800px; /* 限制最大高度，单位px，自行调整 */
+        // overflow-y: auto;  /* 超出显示滚动条 */
+    }
+}
+@media (min-width: 1024px) {
+    .right-sidebar .widget-title {
+        font-size: 1.5rem;  // 默认可能是 1.4rem，你可以改得小一点
+    }
+}
+
+.right-sidebar .tagCloud-tags a {
+    background-color: #f2e4e4c2;       /* 自定义背景色 */
+    color: #333;                     /* 文字颜色 */
+    padding: 6px 12px;               /* 内边距 */
+    border-radius: 5px;              /* 圆角 */
+    margin: 4px 6px 4px 0;           /* 间距 */
+    display: inline-block;           /* 保持块状，方便设置宽高 */
+    transition: background-color 0.3s ease;
+    text-decoration: none;           /* 去掉下划线 */
+}
+
+.right-sidebar .tagCloud-tags a:hover {
+    background-color: #f89b9b;       /* 悬停背景色 */
+    color: #ffffff;                    /* 悬停文字色 */
+}
+
+
+/* 调整中间文章list样式 */
+article {
+    position: relative; /* 确保子元素绝对定位相对于article */
+}
+
+.article-link-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 1; /* 保证覆盖内容 */
+    text-indent: -9999px; /* 隐藏文字（屏幕阅读器仍能读） */
+    background: transparent;
+    cursor: pointer;
+    display: block;
+}
+
+article:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 鼠标悬停加阴影 */
+    background-color: #f8ebebc2; /* 鼠标悬停时的背景色，浅灰示例 */
+}
+
+.article-category {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .category {
+        font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+        font-size: 1.6rem;
+        padding: 4px 8px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+}
+
+.article-tags {
+    margin-top: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .tag {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 1.5rem;
+        padding: 2px 6px;
+        background-color: #eee;
+        border-radius: 3px;
+        color: #333;
+        text-decoration: none;
+    }
+}
+
