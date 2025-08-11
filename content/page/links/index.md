@@ -17,6 +17,10 @@ links:
     description: Hugo中的一个主题，也是本站的主题
     website: https://stack.jimmycai.com/
     image: https://stack.jimmycai.com/logo.png
+  - title: 100font
+    description: 免费字体网站
+    website: https://www.100font.com/
+    image: https://www.100font.com/view/img/%E5%AD%97%E4%BD%93%E4%B8%8B%E8%BD%BD.png
 
 menu:
     main: 

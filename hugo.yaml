@@ -165,12 +165,6 @@ params:
               params:
                 limit: 20
         page:
-            - type: tag-cloud
-              params:
-                limit: 10
-            - type: categories
-              params:
-                limit: 10
             - type: toc
         taxonomy:
             - type: search
