@@ -86,6 +86,8 @@ git clone https://github.com/zyt1998/xxx.git # 克隆远程仓库
 git add . # 将所有文件添加到暂存区
 git commit -m "xxx" # 将暂存区提交到本地仓库
 git push origin master # 将本地仓库推送到远程仓库
+git push -f origin main # 强制推送
+
 git branch # 显示你的仓库的所有本地分支，星号分支是您当前的分支。
 
 git rm --cached 文件 //本地中该文件不会被删除

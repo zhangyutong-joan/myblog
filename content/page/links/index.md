@@ -21,6 +21,10 @@ links:
     description: 免费字体网站
     website: https://www.100font.com/
     image: https://images.icon-icons.com/1458/PNG/512/fontsize_99704.png
+  - title: wall
+    description: 图片网站
+    website: https://wall.alphacoders.com/
+    image: https://static.alphacoders.com/alpha_system_360.png
 
 menu:
     main: 
