@@ -49,6 +49,25 @@ conda update xxxx   #更新xxxx文件包
 conda uninstall xxxx   #卸载xxxx文件包
 ```
 
+## mamba
+```
+mamba info --envs # 查看mamba下所有环境
+
+mamba create -n py_310 python=3.10 # 创建新环境: -n 自定义名称 python=版本号
+mamba create -n dl_env python=3.11 pytorch=2.3.1 tensorflow=2.15 -c conda-forge # 创建新环境并拉取多个库
+mamba create --clone py_310 --name new_py_310 # 克隆环境
+
+mamba remove -n py_310 --all # 删除环境
+mamba activate py_310 # 激活环境 py_310是刚才新创建的环境名
+mamba deactivate # 退出环境
+
+mamba install xxx # 安装库包，多个包
+mamba remove numpy # 删除库包
+mamba update numpy # 更新库包
+mamba update --all # 更新所有库包
+mamba clean --all -y # 清理所有缓存
+```
+
 ## git命令
 ```
 git remote -v # 查看远程仓库别名

@@ -19,7 +19,7 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: 拖延症患者，在迷茫中慢慢摸索。
+                subtitle: 在迷雾中慢慢摸索
 
 services:
     # Change it to your Disqus shortname before using
