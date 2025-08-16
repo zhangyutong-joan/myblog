@@ -8,7 +8,7 @@ links:
   - title: Tabler Icons
     description: Stack主题默认推荐使用的icon
     website: https://tabler.io/icons
-    website: https://images.icon-icons.com/38/PNG/512/xlargeicons_image_iconxlarge_5314.png
+    image: https://images.icon-icons.com/38/PNG/512/xlargeicons_image_iconxlarge_5314.png
   - title: Hugo
     description: 使用Go语言开发，用于生成博客静态页面的工具
     website: https://gohugo.io/

@@ -1,5 +1,5 @@
 ---
-title: "开发日志"
+title: "开发"
 description: "关于开发的相关知识整理"
 slug: "test"
 image: "avatar2.png"

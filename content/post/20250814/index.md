@@ -3,13 +3,13 @@ date = '2025-08-14T01:17:13+08:00'
 draft = false
 title = 'vscode 常用配置、插件及使用方法'
 tags = ["vscode"]
-categories = ["实用工具"]
+categories = ["工具"]
 
 image = "https://images.alphacoders.com/135/thumb-1920-1357998.jpeg"
 +++
 
 ## 常用配置
-> 天天忘，记录一下啊啊
+
 ### 1. 所有东西全部放大/缩小一个级别
 - 在设置中搜索level：
 Window: Zoom Level
@@ -45,7 +45,6 @@ Window: Zoom Level
 ```
 
 ## 插件们
-> 有些插件装了一直不知道咋用，真服了自己，记录一下别忘了  
 
 ### 1. Project Manager
 

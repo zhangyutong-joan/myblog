@@ -3,7 +3,7 @@ date = '2025-07-27T01:17:13+08:00'
 draft = false
 title = '一些常用命令'
 tags = ["linux", "git", "conda"]
-categories = ["开发日志"]
+categories = ["开发"]
 
 image = "https://s.panlai.com/upload/bizhihui_com_20231109221056169953905656676.png-arthumbs"
 +++
