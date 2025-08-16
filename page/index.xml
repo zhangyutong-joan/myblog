@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on zhangyutong-joan</title>
+        <link>https://zhangyutong-joan.github.io/myblog/page/</link>
+        <description>Recent content in Pages on zhangyutong-joan</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>zhangyutong-joan</copyright>
+        <lastBuildDate>Sat, 16 Aug 2025 19:57:02 +0800</lastBuildDate><atom:link href="https://zhangyutong-joan.github.io/myblog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>https://zhangyutong-joan.github.io/myblog/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhangyutong-joan.github.io/myblog/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://zhangyutong-joan.github.io/myblog/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhangyutong-joan.github.io/myblog/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h1 id=&#34;-about-me&#34;&gt;🙏 About Me
+&lt;/h1&gt;&lt;p&gt;你好(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ，我是一名在读计算机专业研究生（数据科学方向）。&lt;/p&gt;
+&lt;p&gt;🌱 &lt;strong&gt;我的日常&lt;/strong&gt;&lt;br&gt;
+&amp;hellip;.总之就是写代码、删代码、怀疑人生、以及被人生怀疑。&lt;/p&gt;
+&lt;p&gt;🤷 &lt;strong&gt;为什么写博客？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记不住&lt;/li&gt;
+&lt;li&gt;不想记&lt;/li&gt;
+&lt;li&gt;但又怕以后用到&lt;br&gt;
+&amp;hellip;所以写下来（然后继续忘）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;📚 &lt;strong&gt;博客内容&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;知识整理（代码、算法、计算机基础）&lt;/li&gt;
+&lt;li&gt;随笔（胡思乱想、无用感悟）&lt;/li&gt;
+&lt;li&gt;记录（避免我忘记自己曾经踩过的坑）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🛠️ &lt;strong&gt;我的兴趣&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;把新技术加入学习清单（然后永远不开始学）&lt;/li&gt;
+&lt;li&gt;写一些没人看的随笔（和未来的自己打招呼）&lt;/li&gt;
+&lt;li&gt;研究算法（虽然它们不研究我）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🌱 &lt;strong&gt;最近状态&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;像 404 页面，迷茫但还活着&lt;/li&gt;
+&lt;li&gt;试图把知识体系整理出来，但在效率与拖延之间左右横跳&lt;/li&gt;
+&lt;li&gt;偶尔思考一下人生，搞明白我是谁，去哪，顺便找找丢了的动力&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>技术链接</title>
+        <link>https://zhangyutong-joan.github.io/myblog/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhangyutong-joan.github.io/myblog/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://zhangyutong-joan.github.io/myblog/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhangyutong-joan.github.io/myblog/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
